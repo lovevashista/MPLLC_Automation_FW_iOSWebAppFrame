@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18873" started-at="2018-11-05T22:13:43Z" finished-at="2018-11-05T22:14:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18873" started-at="2018-11-05T22:13:43Z" finished-at="2018-11-05T22:14:02Z">
+      <class name="MobileProgrammingLLC.Tests.Dummy">
+        <test-method status="PASS" signature="meth()[pri:0, instance:MobileProgrammingLLC.Tests.Dummy@5f341870]" name="meth" duration-ms="18819" started-at="2018-11-05T22:13:43Z" finished-at="2018-11-05T22:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+      </class> <!-- MobileProgrammingLLC.Tests.Dummy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

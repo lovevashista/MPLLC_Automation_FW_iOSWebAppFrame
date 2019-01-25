@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MobileProgrammingLLC.Tests.Listeners"/>
+    <listener class-name="MobileProgrammingLLC.Resources.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="MobileProgrammingLLC.Tests.APIDemos_SettingWiFi">
+        <methods>
+          <include name="clickOnPreferenceOption"/>
+          <include name="initConfigs"/>
+          <include name="clickOnPreferenceDependenciesOption"/>
+          <include name="settingWifiFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.APIDemos_SettingWiFi -->
+      <class name="MobileProgrammingLLC.Tests.APIDemos_MakingPopUps">
+        <methods>
+          <include name="tapOnPopUpMenu"/>
+          <include name="tapOnViewsOption"/>
+          <include name="makeAPopUp"/>
+          <include name="tearDown"/>
+          <include name="initConfigs"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.APIDemos_MakingPopUps -->
+      <class name="MobileProgrammingLLC.Tests.APIDemos_RetrivingDogsInfo">
+        <methods>
+          <include name="navigateToCustomAdapterPage"/>
+          <include name="tearDown"/>
+          <include name="retrieveDogNamesInformation"/>
+          <include name="initConfigs"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.APIDemos_RetrivingDogsInfo -->
+      <class name="MobileProgrammingLLC.Tests.APIDemos_PlayingRedDots">
+        <methods>
+          <include name="tapOnViewsOption"/>
+          <include name="tapOnDragAndDropOption"/>
+          <include name="initConfigs"/>
+          <include name="tearDown"/>
+          <include name="validatingRedDotsMovement"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.APIDemos_PlayingRedDots -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
